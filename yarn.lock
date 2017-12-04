@@ -27,32 +27,6 @@
     webpack "^3.8.1"
     webpack-dev-server "^2.9.5"
 
-"@teachable/webpack@file:///Users/foley/teachable-frontend-build/teachable-webpack-0.0.3.tgz":
-  version "0.0.3"
-  uid "5853ca3d4ed63a186899663f5817946a3589c448"
-  resolved "file:///Users/foley/teachable-frontend-build/teachable-webpack-0.0.3.tgz#5853ca3d4ed63a186899663f5817946a3589c448"
-  dependencies:
-    "@types/jest" "^21.1.8"
-    "@types/react" "^16.0.25"
-    "@types/react-dom" "^16.0.3"
-    awesome-typescript-loader "^3.4.0"
-    css-loader "^0.28.7"
-    ejs-loader "^0.3.0"
-    html-loader "^0.5.1"
-    html-webpack-plugin "^2.30.1"
-    jest "^21.2.1"
-    react "^16.1.1"
-    react-dom "^16.1.1"
-    source-map-loader "^0.2.3"
-    style-loader "^0.19.0"
-    ts-jest "^21.2.3"
-    tslint "^5.8.0"
-    tslint-config-airbnb "^5.4.2"
-    tslint-loader "^3.5.3"
-    typescript "^2.6.2"
-    webpack "^3.8.1"
-    webpack-dev-server "^2.9.5"
-
 "@types/events@*":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.1.0.tgz#93b1be91f63c184450385272c47b6496fd028e02"
@@ -66,6 +40,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.54.tgz#3fd9357db4af388b79e03845340259440edffde6"
   dependencies:
     "@types/events" "*"
+
+"@types/pdfjs-dist@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@types/pdfjs-dist/-/pdfjs-dist-0.1.1.tgz#be5ee24fcaece186b25ce11fb1e9aec1087e2c1f"
 
 "@types/react-dom@^16.0.3":
   version "16.0.3"
@@ -3225,7 +3203,7 @@ loader-utils@^0.2.16, loader-utils@^0.2.7, loader-utils@~0.2.2:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
-loader-utils@^1.0.2, loader-utils@^1.1.0:
+loader-utils@^1.0.0, loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.1.0.tgz#c98aef488bcceda2ffb5e2de646d6a754429f5cd"
   dependencies:
@@ -3533,6 +3511,10 @@ no-case@^2.2.0:
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-ensure@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/node-ensure/-/node-ensure-0.0.0.tgz#ecae764150de99861ec5c810fd5d096b183932a7"
 
 node-fetch@^1.0.1:
   version "1.7.3"
@@ -3918,6 +3900,13 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+pdfjs-dist@^2.0.183:
+  version "2.0.183"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.183.tgz#8888ced6a8e38dadb7df3fa577f343f41ede5426"
+  dependencies:
+    node-ensure "^0.0.0"
+    worker-loader "^1.0.0"
 
 performance-now@^0.2.0:
   version "0.2.0"
@@ -5732,6 +5721,13 @@ worker-farm@^1.3.1:
   dependencies:
     errno "^0.1.4"
     xtend "^4.0.1"
+
+worker-loader@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-1.1.0.tgz#8cf21869a07add84d66f821d948d23c1eb98e809"
+  dependencies:
+    loader-utils "^1.0.0"
+    schema-utils "^0.3.0"
 
 wrap-ansi@^2.0.0:
   version "2.1.0"

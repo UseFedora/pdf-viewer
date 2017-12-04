@@ -5,7 +5,7 @@ pdfjs.PDFJS.disableWorker = true
 pdfjs.getDocument('https://www.filepicker.io/api/file/niqBP1FjRYKPyX5HMj2p')
   .then((pdf) => {
     return pdf.getPage(1).then((page) => {
-      const viewport = page.getViewport(1.0)
+      const viewport = page.getViewport(2.0)
       const canvas = document.createElement('canvas')
 
       canvas.width = viewport.width

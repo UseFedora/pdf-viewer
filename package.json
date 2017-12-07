@@ -1,0 +1,20 @@
+{
+  "name": "pdfjs",
+  "version": "1.0.0",
+  "description": "A copy of Mozilla's PDF JS with a deployment wrapper for use on Teachable schools.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/pdf.js.git"
+  },
+  "author": "Teachable",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mozilla/pdf.js/issues"
+  },
+  "homepage": "https://github.com/mozilla/pdf.js#readme",
+  "dependencies": {
+    "pdfjs": "git@github.com:mozilla/pdf.js.git"
+  }
+}

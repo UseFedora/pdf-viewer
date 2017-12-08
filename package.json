@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A copy of Mozilla's PDF JS with a deployment wrapper for use on Teachable schools.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "node ./scripts/copy-web",
+    "serve": "node ./scripts/serve"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/mozilla/pdf.js.git"
@@ -15,6 +18,10 @@
   },
   "homepage": "https://github.com/mozilla/pdf.js#readme",
   "dependencies": {
+    "express": "4.16.2",
     "pdfjs": "git@github.com:mozilla/pdf.js.git"
+  },
+  "engines": {
+    "node": "7.0.0"
   }
 }
